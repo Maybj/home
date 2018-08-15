@@ -1,0 +1,62 @@
+.publicacion{
+    background-color: grey;
+    width: 66%;
+    border-radius: 5px;
+}
+/* FOTO DE USUARIO Y TITULOS*/
+.publicacion_usuarios{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.publicacion_foto_usuario img{
+    border-radius: 50%;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+.publicacion_nombre_usuario{
+    width: 80%;
+}
+/* CONTENIDO*/
+.publicacion_contenido{
+    display: flex;
+    justify-content: center;
+    padding: 0 10px 0 10px;
+}
+
+/*BOTONES*/
+.m_g{
+    margin-bottom: 3px;
+}
+
+.barra_accion{
+    width: 30%;
+    padding-top: 3px;
+    border-top: 0.1px solid black;
+    border-bottom: 0.1px solid black;
+    margin-left: 5px;
+}
+
+.barra_accion a{
+    background-color: white;
+}
+
+/*COMENTARIO*/
+.comentario{
+    display: flex;
+    font-weight: wrap;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.foto_comentario img{
+    border-radius: 50%;
+    padding-bottom: 3px;
+    margin-right: 2px;
+}
+
+.comentario_area textarea{
+    border-radius: 20px;
+    height: 25px;
+}
